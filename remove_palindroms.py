@@ -1,5 +1,5 @@
-def remove_palindroms(new):
-    for i in new:
+def remove_palindroms(news):
+    for i in news:
         if i.lower() == i[::-1].lower():
-            new.remove(i)
-    return new
+            news.remove(i)
+    return news

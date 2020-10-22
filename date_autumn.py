@@ -10,7 +10,7 @@ def date_autumn(dates):
         if p[0] == "09" or p[0] == "10" or p[0] == "11":
             la.append(p)
     for i in la:
-
+    if
 
 
 
