@@ -1,5 +1,7 @@
-def remove_palindroms(news):
-    for i in news:
+def remove_palindroms(new_list):
+    o = 0
+    for i in new_list:
+        o += 1
         if i.lower() == i[::-1].lower():
-            news.remove(i)
-    return news
+            new_list.pop(o - 1)
+    return(new_list)
