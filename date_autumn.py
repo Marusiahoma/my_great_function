@@ -1,6 +1,3 @@
-dates = ("11-27-2006", "12-01-2009", "08-31-2010", "11-28-2008")
-
-
 def date_autumn(dates):
     la = []
     l = []
@@ -24,7 +21,3 @@ def date_autumn(dates):
         for j in range(len(lol[i])):
             ol.append(lol[i][j])
     return "-".join(ol)
-
-print(date_autumn(dates))
-
-
